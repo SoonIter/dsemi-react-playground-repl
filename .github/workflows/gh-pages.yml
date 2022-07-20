@@ -22,8 +22,8 @@ jobs:
 
       - name: Install and Build 
         run: |
-          cd ./packages/main
           nci
+          cd ./packages/main
           nr build
 
       - name: Deploy 🚀
