@@ -22,11 +22,11 @@ jobs:
 
       - name: Install and Build 
         run: |
-          cd ./packages/main
           nci
+          cd ./packages/main
           nr build
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: dist 
+          folder: ./dist 
