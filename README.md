@@ -1,8 +1,3 @@
-# sooniter-lib-template-monorepo
+# dsemi-react-playground-repl
+my playground of react-Vite
 
-my template of repo with pnpm and vitest
-
-```shell
-npx degit SoonIter/sooniter-lib-template-monorepo my-lib-name
-pnpx degit SoonIter/sooniter-lib-template-monorepo my-lib-name
-```
