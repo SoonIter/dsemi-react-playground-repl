@@ -34,16 +34,17 @@
     "test:ui": "vitest --ui",
     "coverage": "vitest run --coverage",
     "lint": "eslint src/**/*.*",
-    "lint:fix": "eslint src/**/*.* --fix"
+    "lint:fix": "eslint src/**/*.* --fix",
+    "gh-pages":"gh-pages -d dist"
   },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  
   "devDependencies": {
     "@antfu/eslint-config": "^0.25.1",
     "@antfu/ni": "^0.16.3",
+    "@jamesives/github-pages-deploy-action": "^4.3.4",
     "@testing-library/react-hooks": "^8.0.0",
     "@types/react": "^18.0.14",
     "@types/react-test-renderer": "^18.0.0",

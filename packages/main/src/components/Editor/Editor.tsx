@@ -19,7 +19,6 @@ const Editor = () => {
   return (
     <div>
       <TextArea
-        maxCount={1000}
         showClear
         value={code}
         onChange={value => setCode(value)}
