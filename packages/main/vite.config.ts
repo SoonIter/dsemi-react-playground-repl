@@ -8,7 +8,7 @@ import { presetAttributify, presetUno } from 'unocss';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: 'dsemi-react-playground-repl/',
+  base: '/dsemi-react-playground-repl/',
   plugins: [
     React(),
     Icons({

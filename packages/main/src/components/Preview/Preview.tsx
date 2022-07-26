@@ -52,7 +52,7 @@ const Preview = () => {
     });
   }, []);
   return (
-    <div h="800px" w="500px">
+    <div h="full" w="full">
       <div>
         <Tabs type="line">
           <TabPane tab="preview" itemKey="1">
@@ -70,7 +70,7 @@ const Preview = () => {
               <pre dangerouslySetInnerHTML={{ __html: error }} />
                 )
               : (
-              <div>{compiledCode}</div>
+              <pre>{compiledCode}</pre>
                 )}
           </TabPane>
         </Tabs>
